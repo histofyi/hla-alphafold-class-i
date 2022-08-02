@@ -70,7 +70,7 @@ header = next(csvreader)
 print (header)
 
 
-allele = 'HLA-A*1101'
+allele = 'HLA-A*2402'
 
 locus = allele.split('*')[0]
 print (allele)
