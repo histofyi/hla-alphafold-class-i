@@ -33,9 +33,6 @@ def fetch_crystal_structure_peptide(pdb_code):
 
 errors = []
 
-
-
-
 # open the CSV file
 file = open(f'{file_root}human_class_i.csv')
 # and read in the CSV 
