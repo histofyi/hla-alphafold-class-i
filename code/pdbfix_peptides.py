@@ -14,11 +14,18 @@ ignore_structures = ['4LCY']
 
 class RemoveHydrogens(Select):
     def accept_atom(self, atom):
-        if 'H' in atom.get_name():
-            return 0
-        else:
-            return 1
-     
+        return removable_atom(atom.get_name())     
+
+def removable_atom(atom_name):
+    is_removable = 1
+    if 'H' in atom_name or 'OXT' in atom_name:
+            if atom_name != 'OH':
+                if atom_name != 'NH1':
+                    if atom_name != 'NH2': 
+                        if atom_name != 'CH2':
+                            is_removable = 0
+    return is_removable
+
 
 
 def fix_peptide_structure(pdb_code:str, peptide_sequence:str) -> Tuple[bool, List]:
@@ -39,6 +46,8 @@ def fix_peptide_structure(pdb_code:str, peptide_sequence:str) -> Tuple[bool, Lis
 
             pdb_code (str): the PDB code of the peptide to clean e.g. 3KYO
             peptide_sequence (str): the sequence of the peptide within the PDB file e.g. KLPAQFYIL
+    
+    #TODO - find which step removes all the B-factor information and sort it out.
     """
 
     input_folder = 'raw'
@@ -100,8 +109,9 @@ def fix_peptide_structure(pdb_code:str, peptide_sequence:str) -> Tuple[bool, Lis
                     print (f'{residue_name}{residue_id} is disordered')
                     reasons.append(f'disordered_residue_{residue_id}')
                 for atom in residue:
-                    if 'H' in atom.get_name():
-                        print (f'{residue_name}{residue_id} - {atom.id} has {atom.get_name()}')
+                    is_removable = removable_atom(atom.get_name())
+                    if is_removable == 0:
+                        print (f'{residue_name}{residue_id} - {atom.get_name()}')
                     if atom.is_disordered():
                         not_disordered = False
                         print (f'{residue_name}{residue_id} - {atom.id} is disordered')
