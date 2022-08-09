@@ -1,22 +1,124 @@
 from biopandas.pdb import PandasPdb
-import requests
+import csv
+import os
 
-url = 'https://raw.githubusercontent.com/histofyi/hla-alphafold-class-i/main/hla-a/hla-a*0101/unrelaxed/AQDIYRASYY/HLA_A0101_AQDIYRASYY_ecc32_5un.result/HLA_A0101_AQDIYRASYY_ecc32_5un_unrelaxed_rank_1_model_1.pdb'
 
-r = requests.get(url)
-print (r.status_code)
-print (r.headers['content-type'])
-print (r.text)
+from common import locus_from_allele, build_filepath, build_runpath 
 
-ppdb = PandasPdb()
-pdb_data = r.text.splitlines()
-ppdb.read_pdb_from_list(pdb_data)
 
-print('PDB Code: %s' % ppdb.code)
-print('PDB Header Line: %s' % ppdb.header)
+pdb_code = '1YDP'
 
-print (ppdb.df.keys())
-print (ppdb.df['ATOM'].head())
+file_root = '../'
 
-print (ppdb.df['ATOM'].groupby(['chain_id']))
+real_structure = f'{file_root}structures/peptides/fixed/{pdb_code.lower()}.pdb'
+
+
+
+
+
+
+
+
+
+
+
+real = PandasPdb().read_pdb(real_structure)
+test = PandasPdb()
+
+# open the CSV file
+file = open(f'{file_root}human_class_i.csv')
+# and read in the CSV 
+csvreader = csv.reader(file)
+# set the header to the first row
+header = next(csvreader)
+
+# iterate through the remaining rows
+rows = []
+for row in csvreader:
+    # if the specified allele is present then add it to the curated rowset
+    rows.append(row)
+
+alpha_fold_row = None
+# next create a dictionary of the complexex relating to a specific allele
+complex_set = []
+for row in rows:
+    if pdb_code in row:
+        alpha_fold_row = {k:v for k,v in list(zip(header,row))}
+
+
+i = 0
+
+rmsds = {
+    'pdb_code':pdb_code,
+}
+
+
+recycles = [recycle for recycle in range(3,11)]
+
+if alpha_fold_row:
+    allele = alpha_fold_row['allele']
+    locus = locus_from_allele(allele)
+    peptide = alpha_fold_row['peptide']
+
+    residue_positions = [position + 1 for position in range(0, len(peptide))]
+
+
+    rmsds['locus'] = locus
+    rmsds['allele'] = allele
+    rmsds['peptide'] = peptide
+    rmsds['relaxed'] = 'unrelaxed'
+
+    rmsds['recycles'] = {}
+
+    for recycle in recycles:
+        rmsds['recycles'][str(recycle)] = {'recycle_count': recycle}
+
+
+    folder_type = 'unrelaxed_split_peptide'
+    folder_path = build_filepath(folder_type, locus, allele, peptide, file_root)
+    run_folders = [folder for folder in os.listdir(folder_path) if '.result' in folder]
+
+    for run_folder in run_folders:
+        run_folder_path = f'{folder_path}/{run_folder}'
+        run_files = [run_file for run_file in os.listdir(run_folder_path) if '.pdb' in run_file]
+        for run_file in run_files:
+            run_file_path = f'{run_folder_path}/{run_file}'
+            
+            if i == 0:
+                test = None
+                test = PandasPdb().read_pdb(run_file_path)
+                #TODO put in checking that the whole peptide dataframes are the same shape. They may not be in the case of missing atoms in residues
+                backbone_rmsd = PandasPdb.rmsd(test.df['ATOM'], real.df['ATOM'], s='main chain') 
+                all_atom_rmsd = PandasPdb.rmsd(test.df['ATOM'], real.df['ATOM'], s='heavy')
+                print ('----------')
+                print (allele)
+                print (peptide)
+                print (run_file)
+                print (f'pymol {real_structure} {run_file_path}')
+                print ('----------')
+
+                print (f'Full length: backbone rmsd: {backbone_rmsd}')
+                print (f'Full length: all atom rmsd: {all_atom_rmsd}')
+                print ('----------')
+                for residue_position in residue_positions:
+
+                    print (f'P{residue_position}')
+                    test_residue = test.df['ATOM'][test.df['ATOM']['residue_number'] == residue_position]
+                    real_residue = real.df['ATOM'][real.df['ATOM']['residue_number'] == residue_position]
+
+                    if test_residue.shape != real_residue.shape:
+                        print ('----------')
+                        print (f'P{residue_position} {real_residue.shape}')
+                        print (real_residue)
+                        print (f'P{residue_position} {test_residue.shape}')
+                        print (test_residue)
+                        print ('----------')
+                    else:
+                        print (PandasPdb.rmsd(real_residue, test_residue, s='main chain'))
+                        print (PandasPdb.rmsd(real_residue, test_residue, s='heavy'))                        
+                    print ('----------')
+            i += 1
+
+
+    print (rmsds)
 
