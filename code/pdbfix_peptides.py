@@ -85,6 +85,11 @@ def fix_peptide_structure(pdb_code:str, peptide_sequence:str) -> Tuple[bool, Lis
             for residue in chain:
                 i += 1
                 residue_id = residue.id[1]
+                if i == 1:
+                    if residue_id != 1:
+                        print ('wrong_peptide_start_id')
+                        not_disordered = False
+                        reasons.append('wrong_peptide_start_id')
                 if abs(last_residue_id - residue_id) > 1:
                     not_disordered = False
                     reasons.append(f'broken_chain_at_{last_residue_id}')
