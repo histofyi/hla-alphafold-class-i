@@ -6,7 +6,7 @@ import os
 from common import locus_from_allele, build_filepath, build_runpath 
 
 
-pdb_code = '1YDP'
+pdb_code = '3BP4'
 
 file_root = '../'
 
@@ -84,7 +84,9 @@ if alpha_fold_row:
         for run_file in run_files:
             run_file_path = f'{run_folder_path}/{run_file}'
             
-            if i == 0:
+            if i < 10:
+                predicted_structure_data = {}
+                
                 test = None
                 test = PandasPdb().read_pdb(run_file_path)
                 #TODO put in checking that the whole peptide dataframes are the same shape. They may not be in the case of missing atoms in residues
@@ -97,15 +99,15 @@ if alpha_fold_row:
                 print (f'pymol {real_structure} {run_file_path}')
                 print ('----------')
 
-                print (f'Full length: backbone rmsd: {backbone_rmsd}')
-                print (f'Full length: all atom rmsd: {all_atom_rmsd}')
+                print (f'Full length - backbone rmsd: {backbone_rmsd}')
+                print (f'Full length - all atom rmsd: {all_atom_rmsd}')
                 print ('----------')
                 for residue_position in residue_positions:
 
-                    print (f'P{residue_position}')
                     test_residue = test.df['ATOM'][test.df['ATOM']['residue_number'] == residue_position]
                     real_residue = real.df['ATOM'][real.df['ATOM']['residue_number'] == residue_position]
-
+                    print (f'P{residue_position}{test_residue["residue_name"].max()}')
+                    
                     if test_residue.shape != real_residue.shape:
                         print ('----------')
                         print (f'P{residue_position} {real_residue.shape}')
@@ -114,8 +116,12 @@ if alpha_fold_row:
                         print (test_residue)
                         print ('----------')
                     else:
-                        print (PandasPdb.rmsd(real_residue, test_residue, s='main chain'))
-                        print (PandasPdb.rmsd(real_residue, test_residue, s='heavy'))                        
+                        residue_pldddt = round(test_residue['b_factor'].mean(), 2)
+                        print (f'Residue - plddt: {residue_pldddt}')
+                        residue_backbone_rmsd = PandasPdb.rmsd(real_residue, test_residue, s='main chain')
+                        residue_all_atom_rmsd = PandasPdb.rmsd(real_residue, test_residue, s='heavy')
+                        print (f'Residue - backbone rmsd: {residue_backbone_rmsd}')
+                        print (f'Residue - all atom rmsd: {residue_all_atom_rmsd}')                        
                     print ('----------')
             i += 1
 
