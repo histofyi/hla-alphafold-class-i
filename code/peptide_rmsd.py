@@ -2,12 +2,13 @@ from biopandas.pdb import PandasPdb
 import csv
 import os
 import re
+import json
 from typing import List, Dict, Tuple
 
 from common import locus_from_allele, build_filepath, build_runpath 
 
 
-pdb_code = '3BP4'
+pdb_code = '6AT9'
 
 file_root = '../'
 
@@ -115,7 +116,10 @@ def process_colabfold_structure(run_file_path:str, real) -> Tuple[Dict,bool,List
             print (f'Residue - plddt: {residue_pldddt}')
             residue_backbone_rmsd = PandasPdb.rmsd(real_residue, test_residue, s='main chain')
             residue_all_atom_rmsd = PandasPdb.rmsd(real_residue, test_residue, s='heavy')
-            residue_side_chain_rmsd = PandasPdb.rmsd(real_residue[sel], test_residue[sel], s='heavy')
+            if test_residue["residue_name"].max() != 'GLY':
+                residue_side_chain_rmsd = PandasPdb.rmsd(real_residue[sel], test_residue[sel], s='heavy')
+            else:
+                residue_side_chain_rmsd = None
             print (f'Residue - backbone rmsd: {residue_backbone_rmsd}')
             print (f'Residue - all atom rmsd: {residue_all_atom_rmsd}')   
             print (f'Residue - side chain rmsd: {residue_side_chain_rmsd}')  
@@ -168,12 +172,17 @@ if alpha_fold_row:
                 'model':run_details['model'], 
                 'rank': run_details['rank'],
                 'predicted_structure_data': predicted_structure_data
-            })
-            
+            })            
+    i += 1
 
-                
-            i += 1
-
-
-    print (rmsds)
+    try:
+        statistics_directory = f'{file_root}{locus.lower()}/{allele.lower()}/statistics'
+        os.makedirs(statistics_directory)
+        print('directory created')
+    except:
+        print('directory already exists')
+    file_name = f'{statistics_directory}/{peptide.lower()}.json'
+    print (file_name)
+    with open(file_name, 'w') as output_file:
+        json.dump(rmsds, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
 
