@@ -1,0 +1,3529 @@
+{
+    "allele": "HLA-B*2705",
+    "locus": "HLA-B",
+    "pdb_code": "2BST",
+    "peptide": "SRYWAIRTR",
+    "recycles": {
+        "10": {
+            "models": [
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.8943,
+                            "backbone_rmsd": 4.3866,
+                            "plddt": 35.1089,
+                            "side_chain_rmsd": 6.8076
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.1018,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.6375,
+                                "plddt": 27.31,
+                                "position": 1,
+                                "side_chain_rmsd": 7.9224
+                            },
+                            "2": {
+                                "all_atom_rmsd": 5.6787,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.439,
+                                "plddt": 31.4,
+                                "position": 2,
+                                "side_chain_rmsd": 5.8112
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.6173,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 3.1269,
+                                "plddt": 38.83,
+                                "position": 3,
+                                "side_chain_rmsd": 3.4218
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.8259,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.6214,
+                                "plddt": 42.48,
+                                "position": 4,
+                                "side_chain_rmsd": 10.1887
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.2975,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 2.9104,
+                                "plddt": 38.1,
+                                "position": 5,
+                                "side_chain_rmsd": 4.5262
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.9274,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.9891,
+                                "plddt": 34.71,
+                                "position": 6,
+                                "side_chain_rmsd": 7.8316
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.2208,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.8253,
+                                "plddt": 37.21,
+                                "position": 7,
+                                "side_chain_rmsd": 6.3975
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.6495,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.1211,
+                                "plddt": 37.21,
+                                "position": 8,
+                                "side_chain_rmsd": 6.6666
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.472,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.6074,
+                                "plddt": 28.73,
+                                "position": 9,
+                                "side_chain_rmsd": 2.8506
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_10un.result/HLA_B2705_SRYWAIRTR_d51bc_10un_unrelaxed_rank_1_model_2.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.5097,
+                            "backbone_rmsd": 4.4593,
+                            "plddt": 36.6456,
+                            "side_chain_rmsd": 6.2138
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.3774,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.8999,
+                                "plddt": 29.54,
+                                "position": 1,
+                                "side_chain_rmsd": 8.2335
+                            },
+                            "2": {
+                                "all_atom_rmsd": 5.4578,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.8278,
+                                "plddt": 33.04,
+                                "position": 2,
+                                "side_chain_rmsd": 5.2346
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.1065,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 3.7879,
+                                "plddt": 42.49,
+                                "position": 3,
+                                "side_chain_rmsd": 2.6014
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.6071,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.5728,
+                                "plddt": 44.5,
+                                "position": 4,
+                                "side_chain_rmsd": 9.9302
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.8766,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.2273,
+                                "plddt": 38.1,
+                                "position": 5,
+                                "side_chain_rmsd": 5.7859
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.1171,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.1694,
+                                "plddt": 36.02,
+                                "position": 6,
+                                "side_chain_rmsd": 6.9039
+                            },
+                            "7": {
+                                "all_atom_rmsd": 4.3163,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.3348,
+                                "plddt": 36.81,
+                                "position": 7,
+                                "side_chain_rmsd": 5.3159
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.1911,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.1209,
+                                "plddt": 38.38,
+                                "position": 8,
+                                "side_chain_rmsd": 1.2787
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.5685,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.3141,
+                                "plddt": 30.93,
+                                "position": 9,
+                                "side_chain_rmsd": 3.0627
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_10un.result/HLA_B2705_SRYWAIRTR_d51bc_10un_unrelaxed_rank_4_model_3.pdb"
+                    },
+                    "rank": "4"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.4577,
+                            "backbone_rmsd": 4.9903,
+                            "plddt": 39.97,
+                            "side_chain_rmsd": 8.9025
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.4336,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.0508,
+                                "plddt": 32.67,
+                                "position": 1,
+                                "side_chain_rmsd": 7.0386
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.1059,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.5766,
+                                "plddt": 38.14,
+                                "position": 2,
+                                "side_chain_rmsd": 16.4512
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.2426,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.1842,
+                                "plddt": 46.91,
+                                "position": 3,
+                                "side_chain_rmsd": 3.4156
+                            },
+                            "4": {
+                                "all_atom_rmsd": 7.909,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.907,
+                                "plddt": 51.72,
+                                "position": 4,
+                                "side_chain_rmsd": 9.0259
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.7487,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.385,
+                                "plddt": 42.9,
+                                "position": 5,
+                                "side_chain_rmsd": 4.9429
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.0428,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.2333,
+                                "plddt": 40.28,
+                                "position": 6,
+                                "side_chain_rmsd": 6.7729
+                            },
+                            "7": {
+                                "all_atom_rmsd": 7.4232,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.2541,
+                                "plddt": 40.48,
+                                "position": 7,
+                                "side_chain_rmsd": 9.257
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.0911,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.6803,
+                                "plddt": 35.87,
+                                "position": 8,
+                                "side_chain_rmsd": 2.5375
+                            },
+                            "9": {
+                                "all_atom_rmsd": 3.16,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.3804,
+                                "plddt": 30.76,
+                                "position": 9,
+                                "side_chain_rmsd": 3.529
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_10un.result/HLA_B2705_SRYWAIRTR_d51bc_10un_unrelaxed_rank_2_model_5.pdb"
+                    },
+                    "rank": "2"
+                },
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.4207,
+                            "backbone_rmsd": 5.1177,
+                            "plddt": 33.9933,
+                            "side_chain_rmsd": 8.7945
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.0394,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.7635,
+                                "plddt": 26.5,
+                                "position": 1,
+                                "side_chain_rmsd": 7.3813
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.7703,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.8599,
+                                "plddt": 32.99,
+                                "position": 2,
+                                "side_chain_rmsd": 17.2618
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.1317,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.0205,
+                                "plddt": 39.57,
+                                "position": 3,
+                                "side_chain_rmsd": 3.3541
+                            },
+                            "4": {
+                                "all_atom_rmsd": 7.5453,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.3405,
+                                "plddt": 46.21,
+                                "position": 4,
+                                "side_chain_rmsd": 8.6741
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.4147,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 2.959,
+                                "plddt": 37.82,
+                                "position": 5,
+                                "side_chain_rmsd": 4.8248
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.783,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.506,
+                                "plddt": 35.76,
+                                "position": 6,
+                                "side_chain_rmsd": 7.7851
+                            },
+                            "7": {
+                                "all_atom_rmsd": 4.5684,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.0903,
+                                "plddt": 32.67,
+                                "position": 7,
+                                "side_chain_rmsd": 5.5045
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.9643,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.0989,
+                                "plddt": 29.49,
+                                "position": 8,
+                                "side_chain_rmsd": 2.719
+                            },
+                            "9": {
+                                "all_atom_rmsd": 4.3304,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.2174,
+                                "plddt": 24.93,
+                                "position": 9,
+                                "side_chain_rmsd": 5.1631
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_10un.result/HLA_B2705_SRYWAIRTR_d51bc_10un_unrelaxed_rank_3_model_4.pdb"
+                    },
+                    "rank": "3"
+                },
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.1301,
+                            "backbone_rmsd": 5.7904,
+                            "plddt": 30.8478,
+                            "side_chain_rmsd": 8.023
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 12.1823,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 12.4532,
+                                "plddt": 25.43,
+                                "position": 1,
+                                "side_chain_rmsd": 11.6216
+                            },
+                            "2": {
+                                "all_atom_rmsd": 8.7559,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 7.9974,
+                                "plddt": 29.18,
+                                "position": 2,
+                                "side_chain_rmsd": 9.1611
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.7538,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.0559,
+                                "plddt": 35.13,
+                                "position": 3,
+                                "side_chain_rmsd": 3.3536
+                            },
+                            "4": {
+                                "all_atom_rmsd": 9.6499,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.2785,
+                                "plddt": 35.05,
+                                "position": 4,
+                                "side_chain_rmsd": 11.228
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.6214,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 2.8732,
+                                "plddt": 32.93,
+                                "position": 5,
+                                "side_chain_rmsd": 5.7055
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.9691,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.0794,
+                                "plddt": 32.17,
+                                "position": 6,
+                                "side_chain_rmsd": 7.8599
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.9214,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.9016,
+                                "plddt": 31.25,
+                                "position": 7,
+                                "side_chain_rmsd": 7.0914
+                            },
+                            "8": {
+                                "all_atom_rmsd": 5.1783,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.4535,
+                                "plddt": 29.45,
+                                "position": 8,
+                                "side_chain_rmsd": 6.8312
+                            },
+                            "9": {
+                                "all_atom_rmsd": 4.1642,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 4.1753,
+                                "plddt": 27.04,
+                                "position": 9,
+                                "side_chain_rmsd": 4.1579
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_10un.result/HLA_B2705_SRYWAIRTR_d51bc_10un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                }
+            ],
+            "recycle_count": 10
+        },
+        "3": {
+            "models": [
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.4448,
+                            "backbone_rmsd": 5.9962,
+                            "plddt": 30.8956,
+                            "side_chain_rmsd": 8.4168
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 11.9874,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 12.4292,
+                                "plddt": 27.57,
+                                "position": 1,
+                                "side_chain_rmsd": 11.0512
+                            },
+                            "2": {
+                                "all_atom_rmsd": 10.7613,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.0967,
+                                "plddt": 29.92,
+                                "position": 2,
+                                "side_chain_rmsd": 11.6058
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.9385,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.1028,
+                                "plddt": 36.75,
+                                "position": 3,
+                                "side_chain_rmsd": 3.0638
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.3312,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.3227,
+                                "plddt": 40.45,
+                                "position": 4,
+                                "side_chain_rmsd": 9.631
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.7233,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.0871,
+                                "plddt": 35.99,
+                                "position": 5,
+                                "side_chain_rmsd": 5.5853
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.2443,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.2207,
+                                "plddt": 30.59,
+                                "position": 6,
+                                "side_chain_rmsd": 7.0762
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.5094,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.0321,
+                                "plddt": 28.78,
+                                "position": 7,
+                                "side_chain_rmsd": 8.0141
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.9494,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.241,
+                                "plddt": 25.04,
+                                "position": 8,
+                                "side_chain_rmsd": 1.4734
+                            },
+                            "9": {
+                                "all_atom_rmsd": 7.5989,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.0665,
+                                "plddt": 22.97,
+                                "position": 9,
+                                "side_chain_rmsd": 8.7219
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_3un.result/HLA_B2705_SRYWAIRTR_d51bc_3un_unrelaxed_rank_4_model_3.pdb"
+                    },
+                    "rank": "4"
+                },
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.6661,
+                            "backbone_rmsd": 5.6867,
+                            "plddt": 29.3356,
+                            "side_chain_rmsd": 8.9237
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.7421,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.6546,
+                                "plddt": 22.97,
+                                "position": 1,
+                                "side_chain_rmsd": 9.915
+                            },
+                            "2": {
+                                "all_atom_rmsd": 5.6967,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.3765,
+                                "plddt": 30.2,
+                                "position": 2,
+                                "side_chain_rmsd": 5.8719
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.0095,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 2.8111,
+                                "plddt": 34.0,
+                                "position": 3,
+                                "side_chain_rmsd": 3.1213
+                            },
+                            "4": {
+                                "all_atom_rmsd": 7.3179,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.3164,
+                                "plddt": 35.78,
+                                "position": 4,
+                                "side_chain_rmsd": 8.4008
+                            },
+                            "5": {
+                                "all_atom_rmsd": 5.0996,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 4.4348,
+                                "plddt": 33.05,
+                                "position": 5,
+                                "side_chain_rmsd": 7.1666
+                            },
+                            "6": {
+                                "all_atom_rmsd": 6.8397,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.4086,
+                                "plddt": 31.66,
+                                "position": 6,
+                                "side_chain_rmsd": 9.0523
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.5214,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.4967,
+                                "plddt": 28.37,
+                                "position": 7,
+                                "side_chain_rmsd": 7.7358
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.85,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 4.5097,
+                                "plddt": 26.39,
+                                "position": 8,
+                                "side_chain_rmsd": 2.7331
+                            },
+                            "9": {
+                                "all_atom_rmsd": 13.9307,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.283,
+                                "plddt": 21.6,
+                                "position": 9,
+                                "side_chain_rmsd": 15.9911
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_3un.result/HLA_B2705_SRYWAIRTR_d51bc_3un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                },
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.3751,
+                            "backbone_rmsd": 4.8444,
+                            "plddt": 36.6089,
+                            "side_chain_rmsd": 8.8407
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.1602,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 8.7319,
+                                "plddt": 29.58,
+                                "position": 1,
+                                "side_chain_rmsd": 6.8757
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.3058,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.6406,
+                                "plddt": 35.54,
+                                "position": 2,
+                                "side_chain_rmsd": 16.7014
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.1781,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.1528,
+                                "plddt": 41.44,
+                                "position": 3,
+                                "side_chain_rmsd": 3.3051
+                            },
+                            "4": {
+                                "all_atom_rmsd": 7.4006,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.3596,
+                                "plddt": 47.94,
+                                "position": 4,
+                                "side_chain_rmsd": 8.4948
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.4896,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.0885,
+                                "plddt": 40.11,
+                                "position": 5,
+                                "side_chain_rmsd": 4.7677
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.9391,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.09,
+                                "plddt": 37.58,
+                                "position": 6,
+                                "side_chain_rmsd": 6.665
+                            },
+                            "7": {
+                                "all_atom_rmsd": 7.6516,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.1651,
+                                "plddt": 36.61,
+                                "position": 7,
+                                "side_chain_rmsd": 9.5513
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.2445,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.708,
+                                "plddt": 32.88,
+                                "position": 8,
+                                "side_chain_rmsd": 2.8046
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.3542,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.0717,
+                                "plddt": 27.8,
+                                "position": 9,
+                                "side_chain_rmsd": 2.5014
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_3un.result/HLA_B2705_SRYWAIRTR_d51bc_3un_unrelaxed_rank_1_model_2.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.8394,
+                            "backbone_rmsd": 5.9117,
+                            "plddt": 35.8622,
+                            "side_chain_rmsd": 10.5715
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.2546,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.9907,
+                                "plddt": 27.89,
+                                "position": 1,
+                                "side_chain_rmsd": 7.5704
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.15,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.9925,
+                                "plddt": 35.39,
+                                "position": 2,
+                                "side_chain_rmsd": 16.3837
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.5115,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.7801,
+                                "plddt": 42.61,
+                                "position": 3,
+                                "side_chain_rmsd": 3.6169
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.6763,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.4298,
+                                "plddt": 47.27,
+                                "position": 4,
+                                "side_chain_rmsd": 9.8763
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.9566,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6077,
+                                "plddt": 39.28,
+                                "position": 5,
+                                "side_chain_rmsd": 5.1199
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.0646,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.1901,
+                                "plddt": 36.69,
+                                "position": 6,
+                                "side_chain_rmsd": 6.8194
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.6711,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.6759,
+                                "plddt": 35.36,
+                                "position": 7,
+                                "side_chain_rmsd": 8.2661
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.0837,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.1349,
+                                "plddt": 31.02,
+                                "position": 8,
+                                "side_chain_rmsd": 3.0141
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.7474,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 7.0976,
+                                "plddt": 27.25,
+                                "position": 9,
+                                "side_chain_rmsd": 15.0521
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_3un.result/HLA_B2705_SRYWAIRTR_d51bc_3un_unrelaxed_rank_2_model_5.pdb"
+                    },
+                    "rank": "2"
+                },
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 9.5736,
+                            "backbone_rmsd": 6.861,
+                            "plddt": 35.2744,
+                            "side_chain_rmsd": 11.2552
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 10.4387,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 11.1741,
+                                "plddt": 27.6,
+                                "position": 1,
+                                "side_chain_rmsd": 8.7849
+                            },
+                            "2": {
+                                "all_atom_rmsd": 15.8304,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 10.5323,
+                                "plddt": 34.38,
+                                "position": 2,
+                                "side_chain_rmsd": 18.1774
+                            },
+                            "3": {
+                                "all_atom_rmsd": 5.003,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 6.7565,
+                                "plddt": 40.75,
+                                "position": 3,
+                                "side_chain_rmsd": 3.8247
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.5577,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 5.031,
+                                "plddt": 45.52,
+                                "position": 4,
+                                "side_chain_rmsd": 9.6127
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.7921,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 4.5838,
+                                "plddt": 39.12,
+                                "position": 5,
+                                "side_chain_rmsd": 5.5477
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.6684,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.2218,
+                                "plddt": 37.27,
+                                "position": 6,
+                                "side_chain_rmsd": 7.3405
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.1221,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.34,
+                                "plddt": 34.85,
+                                "position": 7,
+                                "side_chain_rmsd": 7.4679
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.2634,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 4.5282,
+                                "plddt": 30.62,
+                                "position": 8,
+                                "side_chain_rmsd": 3.8824
+                            },
+                            "9": {
+                                "all_atom_rmsd": 13.9581,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 7.716,
+                                "plddt": 27.36,
+                                "position": 9,
+                                "side_chain_rmsd": 16.4966
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_3un.result/HLA_B2705_SRYWAIRTR_d51bc_3un_unrelaxed_rank_3_model_4.pdb"
+                    },
+                    "rank": "3"
+                }
+            ],
+            "recycle_count": 3
+        },
+        "4": {
+            "models": [
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.5854,
+                            "backbone_rmsd": 5.5216,
+                            "plddt": 29.5189,
+                            "side_chain_rmsd": 8.874
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 10.2829,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.8594,
+                                "plddt": 24.43,
+                                "position": 1,
+                                "side_chain_rmsd": 11.0813
+                            },
+                            "2": {
+                                "all_atom_rmsd": 5.221,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.419,
+                                "plddt": 30.98,
+                                "position": 2,
+                                "side_chain_rmsd": 5.1045
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.7676,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 3.7251,
+                                "plddt": 34.57,
+                                "position": 3,
+                                "side_chain_rmsd": 3.8072
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.3644,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.856,
+                                "plddt": 35.85,
+                                "position": 4,
+                                "side_chain_rmsd": 9.5917
+                            },
+                            "5": {
+                                "all_atom_rmsd": 5.3206,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 4.6759,
+                                "plddt": 32.28,
+                                "position": 5,
+                                "side_chain_rmsd": 7.3545
+                            },
+                            "6": {
+                                "all_atom_rmsd": 6.5016,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.2955,
+                                "plddt": 30.08,
+                                "position": 6,
+                                "side_chain_rmsd": 8.5839
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.0168,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.3347,
+                                "plddt": 27.26,
+                                "position": 7,
+                                "side_chain_rmsd": 7.1088
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.2244,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.6615,
+                                "plddt": 27.42,
+                                "position": 8,
+                                "side_chain_rmsd": 2.5265
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.9894,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 7.8627,
+                                "plddt": 22.8,
+                                "position": 9,
+                                "side_chain_rmsd": 15.1596
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_4un.result/HLA_B2705_SRYWAIRTR_d51bc_4un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                },
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.9303,
+                            "backbone_rmsd": 4.9253,
+                            "plddt": 33.3533,
+                            "side_chain_rmsd": 6.5339
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 10.7334,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 11.0979,
+                                "plddt": 28.14,
+                                "position": 1,
+                                "side_chain_rmsd": 9.9645
+                            },
+                            "2": {
+                                "all_atom_rmsd": 8.7983,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.3211,
+                                "plddt": 34.25,
+                                "position": 2,
+                                "side_chain_rmsd": 9.9405
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.5341,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 2.3142,
+                                "plddt": 36.99,
+                                "position": 3,
+                                "side_chain_rmsd": 4.7576
+                            },
+                            "4": {
+                                "all_atom_rmsd": 4.4537,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.1185,
+                                "plddt": 37.81,
+                                "position": 4,
+                                "side_chain_rmsd": 4.8867
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.2349,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6116,
+                                "plddt": 36.35,
+                                "position": 5,
+                                "side_chain_rmsd": 6.1234
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.7098,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.7526,
+                                "plddt": 34.08,
+                                "position": 6,
+                                "side_chain_rmsd": 7.5913
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.4127,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.6392,
+                                "plddt": 33.39,
+                                "position": 7,
+                                "side_chain_rmsd": 6.4853
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.573,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.418,
+                                "plddt": 31.76,
+                                "position": 8,
+                                "side_chain_rmsd": 6.4031
+                            },
+                            "9": {
+                                "all_atom_rmsd": 3.061,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.5874,
+                                "plddt": 27.41,
+                                "position": 9,
+                                "side_chain_rmsd": 3.3012
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_4un.result/HLA_B2705_SRYWAIRTR_d51bc_4un_unrelaxed_rank_4_model_3.pdb"
+                    },
+                    "rank": "4"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.842,
+                            "backbone_rmsd": 5.9689,
+                            "plddt": 37.1389,
+                            "side_chain_rmsd": 10.549
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.3873,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.9935,
+                                "plddt": 30.16,
+                                "position": 1,
+                                "side_chain_rmsd": 8.0389
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.5793,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.4237,
+                                "plddt": 35.87,
+                                "position": 2,
+                                "side_chain_rmsd": 16.8306
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.679,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 6.0002,
+                                "plddt": 43.09,
+                                "position": 3,
+                                "side_chain_rmsd": 3.7299
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.439,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.6628,
+                                "plddt": 49.37,
+                                "position": 4,
+                                "side_chain_rmsd": 9.5398
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.2847,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.9631,
+                                "plddt": 40.12,
+                                "position": 5,
+                                "side_chain_rmsd": 5.3825
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.1088,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.498,
+                                "plddt": 37.35,
+                                "position": 6,
+                                "side_chain_rmsd": 6.7794
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.8766,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.8558,
+                                "plddt": 37.35,
+                                "position": 7,
+                                "side_chain_rmsd": 8.5054
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.5107,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.6156,
+                                "plddt": 32.67,
+                                "position": 8,
+                                "side_chain_rmsd": 2.3637
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.2621,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.4806,
+                                "plddt": 28.27,
+                                "position": 9,
+                                "side_chain_rmsd": 14.5698
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_4un.result/HLA_B2705_SRYWAIRTR_d51bc_4un_unrelaxed_rank_3_model_5.pdb"
+                    },
+                    "rank": "3"
+                },
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.5765,
+                            "backbone_rmsd": 5.1167,
+                            "plddt": 35.4289,
+                            "side_chain_rmsd": 9.0325
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.0385,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.917,
+                                "plddt": 27.83,
+                                "position": 1,
+                                "side_chain_rmsd": 6.9563
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.7663,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.8639,
+                                "plddt": 34.04,
+                                "position": 2,
+                                "side_chain_rmsd": 17.2553
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.9588,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.0396,
+                                "plddt": 40.76,
+                                "position": 3,
+                                "side_chain_rmsd": 3.0662
+                            },
+                            "4": {
+                                "all_atom_rmsd": 7.6461,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.3542,
+                                "plddt": 46.85,
+                                "position": 4,
+                                "side_chain_rmsd": 8.7948
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.5181,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.1128,
+                                "plddt": 38.14,
+                                "position": 5,
+                                "side_chain_rmsd": 4.809
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.1646,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.0488,
+                                "plddt": 35.98,
+                                "position": 6,
+                                "side_chain_rmsd": 7.0106
+                            },
+                            "7": {
+                                "all_atom_rmsd": 7.4702,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.2599,
+                                "plddt": 37.44,
+                                "position": 7,
+                                "side_chain_rmsd": 9.3159
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.1508,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.6062,
+                                "plddt": 32.54,
+                                "position": 8,
+                                "side_chain_rmsd": 2.7118
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.3856,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.002,
+                                "plddt": 25.28,
+                                "position": 9,
+                                "side_chain_rmsd": 2.5792
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_4un.result/HLA_B2705_SRYWAIRTR_d51bc_4un_unrelaxed_rank_1_model_2.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 9.7693,
+                            "backbone_rmsd": 6.8975,
+                            "plddt": 34.9056,
+                            "side_chain_rmsd": 11.5257
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 10.186,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 10.9358,
+                                "plddt": 28.1,
+                                "position": 1,
+                                "side_chain_rmsd": 8.49
+                            },
+                            "2": {
+                                "all_atom_rmsd": 15.0958,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.5186,
+                                "plddt": 33.69,
+                                "position": 2,
+                                "side_chain_rmsd": 17.5022
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.1116,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.6297,
+                                "plddt": 40.51,
+                                "position": 3,
+                                "side_chain_rmsd": 2.7478
+                            },
+                            "4": {
+                                "all_atom_rmsd": 9.2465,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.6237,
+                                "plddt": 45.0,
+                                "position": 4,
+                                "side_chain_rmsd": 10.5426
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.0772,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.7858,
+                                "plddt": 38.63,
+                                "position": 5,
+                                "side_chain_rmsd": 5.0784
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.4658,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.4483,
+                                "plddt": 37.27,
+                                "position": 6,
+                                "side_chain_rmsd": 7.3318
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.1756,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.1114,
+                                "plddt": 34.51,
+                                "position": 7,
+                                "side_chain_rmsd": 6.0467
+                            },
+                            "8": {
+                                "all_atom_rmsd": 6.3328,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 6.4321,
+                                "plddt": 29.59,
+                                "position": 8,
+                                "side_chain_rmsd": 6.1979
+                            },
+                            "9": {
+                                "all_atom_rmsd": 15.6256,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.6714,
+                                "plddt": 26.85,
+                                "position": 9,
+                                "side_chain_rmsd": 18.1722
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_4un.result/HLA_B2705_SRYWAIRTR_d51bc_4un_unrelaxed_rank_2_model_4.pdb"
+                    },
+                    "rank": "2"
+                }
+            ],
+            "recycle_count": 4
+        },
+        "5": {
+            "models": [
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.3294,
+                            "backbone_rmsd": 6.437,
+                            "plddt": 31.7578,
+                            "side_chain_rmsd": 9.5625
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 12.4031,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 12.8285,
+                                "plddt": 26.79,
+                                "position": 1,
+                                "side_chain_rmsd": 11.5052
+                            },
+                            "2": {
+                                "all_atom_rmsd": 10.1496,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.8021,
+                                "plddt": 29.93,
+                                "position": 2,
+                                "side_chain_rmsd": 10.8446
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.8312,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.8936,
+                                "plddt": 35.78,
+                                "position": 3,
+                                "side_chain_rmsd": 3.0219
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.7508,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.0251,
+                                "plddt": 41.6,
+                                "position": 4,
+                                "side_chain_rmsd": 10.0363
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.4456,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.0242,
+                                "plddt": 34.8,
+                                "position": 5,
+                                "side_chain_rmsd": 4.7725
+                            },
+                            "6": {
+                                "all_atom_rmsd": 6.1064,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.9451,
+                                "plddt": 32.66,
+                                "position": 6,
+                                "side_chain_rmsd": 8.118
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.5548,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.5917,
+                                "plddt": 30.03,
+                                "position": 7,
+                                "side_chain_rmsd": 6.6821
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.8131,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.192,
+                                "plddt": 29.65,
+                                "position": 8,
+                                "side_chain_rmsd": 2.2092
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.9347,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 7.4827,
+                                "plddt": 24.58,
+                                "position": 9,
+                                "side_chain_rmsd": 15.1959
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_5un.result/HLA_B2705_SRYWAIRTR_d51bc_5un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                },
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.5608,
+                            "backbone_rmsd": 4.5099,
+                            "plddt": 36.5011,
+                            "side_chain_rmsd": 6.2633
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.7831,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.2995,
+                                "plddt": 28.72,
+                                "position": 1,
+                                "side_chain_rmsd": 7.6462
+                            },
+                            "2": {
+                                "all_atom_rmsd": 4.9045,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.8216,
+                                "plddt": 33.68,
+                                "position": 2,
+                                "side_chain_rmsd": 4.2934
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.884,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.5301,
+                                "plddt": 42.6,
+                                "position": 3,
+                                "side_chain_rmsd": 3.4982
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.0489,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.8131,
+                                "plddt": 48.88,
+                                "position": 4,
+                                "side_chain_rmsd": 9.2131
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.3567,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.0131,
+                                "plddt": 39.64,
+                                "position": 5,
+                                "side_chain_rmsd": 4.4746
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.5864,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.4042,
+                                "plddt": 34.52,
+                                "position": 6,
+                                "side_chain_rmsd": 7.5256
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.1163,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.1269,
+                                "plddt": 36.94,
+                                "position": 7,
+                                "side_chain_rmsd": 6.2089
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.7178,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.2798,
+                                "plddt": 35.02,
+                                "position": 8,
+                                "side_chain_rmsd": 6.7086
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.398,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.743,
+                                "plddt": 28.51,
+                                "position": 9,
+                                "side_chain_rmsd": 2.702
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_5un.result/HLA_B2705_SRYWAIRTR_d51bc_5un_unrelaxed_rank_2_model_2.pdb"
+                    },
+                    "rank": "2"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.743,
+                            "backbone_rmsd": 5.6901,
+                            "plddt": 38.4822,
+                            "side_chain_rmsd": 10.5078
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.8432,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.3593,
+                                "plddt": 30.44,
+                                "position": 1,
+                                "side_chain_rmsd": 7.7081
+                            },
+                            "2": {
+                                "all_atom_rmsd": 13.8997,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.7344,
+                                "plddt": 37.53,
+                                "position": 2,
+                                "side_chain_rmsd": 16.1248
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.6605,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.5821,
+                                "plddt": 46.05,
+                                "position": 3,
+                                "side_chain_rmsd": 3.8578
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.45,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.3668,
+                                "plddt": 50.94,
+                                "position": 4,
+                                "side_chain_rmsd": 9.6092
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.9443,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6309,
+                                "plddt": 41.57,
+                                "position": 5,
+                                "side_chain_rmsd": 5.0055
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.2082,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.4208,
+                                "plddt": 38.9,
+                                "position": 6,
+                                "side_chain_rmsd": 6.9563
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.8318,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.6258,
+                                "plddt": 38.51,
+                                "position": 7,
+                                "side_chain_rmsd": 8.4755
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.0152,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.0488,
+                                "plddt": 33.12,
+                                "position": 8,
+                                "side_chain_rmsd": 2.9698
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.6877,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.8047,
+                                "plddt": 29.28,
+                                "position": 9,
+                                "side_chain_rmsd": 15.0501
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_5un.result/HLA_B2705_SRYWAIRTR_d51bc_5un_unrelaxed_rank_1_model_5.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.959,
+                            "backbone_rmsd": 4.9125,
+                            "plddt": 36.9411,
+                            "side_chain_rmsd": 6.677
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 10.4269,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 10.9077,
+                                "plddt": 29.85,
+                                "position": 1,
+                                "side_chain_rmsd": 9.3919
+                            },
+                            "2": {
+                                "all_atom_rmsd": 6.5287,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.6011,
+                                "plddt": 34.4,
+                                "position": 2,
+                                "side_chain_rmsd": 6.487
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.5261,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.4153,
+                                "plddt": 42.12,
+                                "position": 3,
+                                "side_chain_rmsd": 2.9682
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.6568,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.0054,
+                                "plddt": 44.45,
+                                "position": 4,
+                                "side_chain_rmsd": 9.9246
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.21,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6543,
+                                "plddt": 41.12,
+                                "position": 5,
+                                "side_chain_rmsd": 5.9332
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.1711,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 1.6516,
+                                "plddt": 36.37,
+                                "position": 6,
+                                "side_chain_rmsd": 5.663
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.9998,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 0.9486,
+                                "plddt": 38.04,
+                                "position": 7,
+                                "side_chain_rmsd": 7.4868
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.0749,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 0.8076,
+                                "plddt": 37.37,
+                                "position": 8,
+                                "side_chain_rmsd": 1.3514
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.4661,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.2142,
+                                "plddt": 28.75,
+                                "position": 9,
+                                "side_chain_rmsd": 2.952
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_5un.result/HLA_B2705_SRYWAIRTR_d51bc_5un_unrelaxed_rank_4_model_3.pdb"
+                    },
+                    "rank": "4"
+                },
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.3842,
+                            "backbone_rmsd": 5.9765,
+                            "plddt": 31.7244,
+                            "side_chain_rmsd": 9.864
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.7303,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 10.6377,
+                                "plddt": 25.92,
+                                "position": 1,
+                                "side_chain_rmsd": 7.5971
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.8663,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.1238,
+                                "plddt": 31.25,
+                                "position": 2,
+                                "side_chain_rmsd": 17.3126
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.047,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.3579,
+                                "plddt": 38.54,
+                                "position": 3,
+                                "side_chain_rmsd": 2.9962
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.7712,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.2848,
+                                "plddt": 43.58,
+                                "position": 4,
+                                "side_chain_rmsd": 10.0181
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.5649,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.2644,
+                                "plddt": 35.66,
+                                "position": 5,
+                                "side_chain_rmsd": 4.5735
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.8018,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.412,
+                                "plddt": 31.84,
+                                "position": 6,
+                                "side_chain_rmsd": 7.8424
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.385,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.9667,
+                                "plddt": 30.37,
+                                "position": 7,
+                                "side_chain_rmsd": 6.367
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.5238,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.7572,
+                                "plddt": 25.83,
+                                "position": 8,
+                                "side_chain_rmsd": 2.1739
+                            },
+                            "9": {
+                                "all_atom_rmsd": 9.5628,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.7173,
+                                "plddt": 22.53,
+                                "position": 9,
+                                "side_chain_rmsd": 10.8591
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_5un.result/HLA_B2705_SRYWAIRTR_d51bc_5un_unrelaxed_rank_3_model_4.pdb"
+                    },
+                    "rank": "3"
+                }
+            ],
+            "recycle_count": 5
+        },
+        "6": {
+            "models": [
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 9.2048,
+                            "backbone_rmsd": 7.4156,
+                            "plddt": 28.0744,
+                            "side_chain_rmsd": 10.3877
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.8023,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.7242,
+                                "plddt": 25.3,
+                                "position": 1,
+                                "side_chain_rmsd": 9.9566
+                            },
+                            "2": {
+                                "all_atom_rmsd": 4.4645,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 4.3221,
+                                "plddt": 27.55,
+                                "position": 2,
+                                "side_chain_rmsd": 4.5438
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.0449,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 2.8381,
+                                "plddt": 31.78,
+                                "position": 3,
+                                "side_chain_rmsd": 4.1622
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.2364,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.4082,
+                                "plddt": 35.84,
+                                "position": 4,
+                                "side_chain_rmsd": 9.5041
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.9486,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6268,
+                                "plddt": 32.36,
+                                "position": 5,
+                                "side_chain_rmsd": 5.034
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.7068,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.1334,
+                                "plddt": 29.63,
+                                "position": 6,
+                                "side_chain_rmsd": 6.3052
+                            },
+                            "7": {
+                                "all_atom_rmsd": 8.6644,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.8287,
+                                "plddt": 28.66,
+                                "position": 7,
+                                "side_chain_rmsd": 9.5563
+                            },
+                            "8": {
+                                "all_atom_rmsd": 10.249,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 9.6407,
+                                "plddt": 20.4,
+                                "position": 8,
+                                "side_chain_rmsd": 11.0078
+                            },
+                            "9": {
+                                "all_atom_rmsd": 17.6939,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 14.3082,
+                                "plddt": 21.15,
+                                "position": 9,
+                                "side_chain_rmsd": 19.3646
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_6un.result/HLA_B2705_SRYWAIRTR_d51bc_6un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                },
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 9.6903,
+                            "backbone_rmsd": 6.7229,
+                            "plddt": 34.9278,
+                            "side_chain_rmsd": 11.486
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.7212,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 10.2787,
+                                "plddt": 28.06,
+                                "position": 1,
+                                "side_chain_rmsd": 8.4973
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.8591,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.3158,
+                                "plddt": 34.11,
+                                "position": 2,
+                                "side_chain_rmsd": 17.2444
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.1428,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.6286,
+                                "plddt": 40.87,
+                                "position": 3,
+                                "side_chain_rmsd": 2.8598
+                            },
+                            "4": {
+                                "all_atom_rmsd": 9.306,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.6182,
+                                "plddt": 46.07,
+                                "position": 4,
+                                "side_chain_rmsd": 10.6165
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.9657,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6736,
+                                "plddt": 38.78,
+                                "position": 5,
+                                "side_chain_rmsd": 4.9652
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.4257,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.3464,
+                                "plddt": 37.33,
+                                "position": 6,
+                                "side_chain_rmsd": 7.3055
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.1632,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.1163,
+                                "plddt": 34.46,
+                                "position": 7,
+                                "side_chain_rmsd": 6.0285
+                            },
+                            "8": {
+                                "all_atom_rmsd": 6.4301,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 6.452,
+                                "plddt": 28.85,
+                                "position": 8,
+                                "side_chain_rmsd": 6.4007
+                            },
+                            "9": {
+                                "all_atom_rmsd": 15.5817,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.5387,
+                                "plddt": 25.82,
+                                "position": 9,
+                                "side_chain_rmsd": 18.1531
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_6un.result/HLA_B2705_SRYWAIRTR_d51bc_6un_unrelaxed_rank_1_model_4.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 6.0916,
+                            "backbone_rmsd": 4.9093,
+                            "plddt": 37.5622,
+                            "side_chain_rmsd": 6.8764
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.9193,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 10.4524,
+                                "plddt": 28.66,
+                                "position": 1,
+                                "side_chain_rmsd": 8.7564
+                            },
+                            "2": {
+                                "all_atom_rmsd": 6.2534,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.8638,
+                                "plddt": 35.81,
+                                "position": 2,
+                                "side_chain_rmsd": 5.8762
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.8796,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.7457,
+                                "plddt": 43.49,
+                                "position": 3,
+                                "side_chain_rmsd": 3.2429
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.5738,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.064,
+                                "plddt": 49.77,
+                                "position": 4,
+                                "side_chain_rmsd": 9.8136
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.855,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.4628,
+                                "plddt": 39.51,
+                                "position": 5,
+                                "side_chain_rmsd": 5.1323
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.7033,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.1014,
+                                "plddt": 37.04,
+                                "position": 6,
+                                "side_chain_rmsd": 6.3108
+                            },
+                            "7": {
+                                "all_atom_rmsd": 7.3656,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.1944,
+                                "plddt": 38.21,
+                                "position": 7,
+                                "side_chain_rmsd": 9.189
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.7106,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.2108,
+                                "plddt": 36.37,
+                                "position": 8,
+                                "side_chain_rmsd": 2.2074
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.2441,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.485,
+                                "plddt": 29.2,
+                                "position": 9,
+                                "side_chain_rmsd": 2.5794
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_6un.result/HLA_B2705_SRYWAIRTR_d51bc_6un_unrelaxed_rank_4_model_3.pdb"
+                    },
+                    "rank": "4"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.5488,
+                            "backbone_rmsd": 5.6027,
+                            "plddt": 36.9767,
+                            "side_chain_rmsd": 10.265
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.9181,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.5572,
+                                "plddt": 30.35,
+                                "position": 1,
+                                "side_chain_rmsd": 7.4777
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.3728,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.9612,
+                                "plddt": 35.99,
+                                "position": 2,
+                                "side_chain_rmsd": 16.6953
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.3548,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.4779,
+                                "plddt": 43.66,
+                                "position": 3,
+                                "side_chain_rmsd": 3.4512
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.2192,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.2116,
+                                "plddt": 49.35,
+                                "position": 4,
+                                "side_chain_rmsd": 9.3532
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.8193,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.485,
+                                "plddt": 40.66,
+                                "position": 5,
+                                "side_chain_rmsd": 4.9348
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.315,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.4302,
+                                "plddt": 36.87,
+                                "position": 6,
+                                "side_chain_rmsd": 7.1128
+                            },
+                            "7": {
+                                "all_atom_rmsd": 7.0319,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.8986,
+                                "plddt": 36.59,
+                                "position": 7,
+                                "side_chain_rmsd": 8.6974
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.2459,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.9843,
+                                "plddt": 32.55,
+                                "position": 8,
+                                "side_chain_rmsd": 2.5534
+                            },
+                            "9": {
+                                "all_atom_rmsd": 11.3254,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.1259,
+                                "plddt": 26.77,
+                                "position": 9,
+                                "side_chain_rmsd": 13.4206
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_6un.result/HLA_B2705_SRYWAIRTR_d51bc_6un_unrelaxed_rank_3_model_5.pdb"
+                    },
+                    "rank": "3"
+                },
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.5192,
+                            "backbone_rmsd": 5.2663,
+                            "plddt": 34.9056,
+                            "side_chain_rmsd": 8.8858
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.8864,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.7037,
+                                "plddt": 26.94,
+                                "position": 1,
+                                "side_chain_rmsd": 6.9702
+                            },
+                            "2": {
+                                "all_atom_rmsd": 13.3535,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.5307,
+                                "plddt": 32.4,
+                                "position": 2,
+                                "side_chain_rmsd": 15.4476
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.8375,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.0473,
+                                "plddt": 39.37,
+                                "position": 3,
+                                "side_chain_rmsd": 2.8637
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.4191,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.9681,
+                                "plddt": 46.62,
+                                "position": 4,
+                                "side_chain_rmsd": 9.6403
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.6188,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.3188,
+                                "plddt": 38.69,
+                                "position": 5,
+                                "side_chain_rmsd": 4.6282
+                            },
+                            "6": {
+                                "all_atom_rmsd": 6.0416,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.1278,
+                                "plddt": 36.21,
+                                "position": 6,
+                                "side_chain_rmsd": 7.951
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.5059,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.3111,
+                                "plddt": 34.84,
+                                "position": 7,
+                                "side_chain_rmsd": 6.6773
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.2268,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.0365,
+                                "plddt": 32.74,
+                                "position": 8,
+                                "side_chain_rmsd": 6.0131
+                            },
+                            "9": {
+                                "all_atom_rmsd": 5.9191,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.3412,
+                                "plddt": 26.34,
+                                "position": 9,
+                                "side_chain_rmsd": 6.9769
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_6un.result/HLA_B2705_SRYWAIRTR_d51bc_6un_unrelaxed_rank_2_model_2.pdb"
+                    },
+                    "rank": "2"
+                }
+            ],
+            "recycle_count": 6
+        },
+        "7": {
+            "models": [
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 9.1978,
+                            "backbone_rmsd": 7.2678,
+                            "plddt": 31.0222,
+                            "side_chain_rmsd": 10.4867
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 12.9483,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 13.3175,
+                                "plddt": 25.9,
+                                "position": 1,
+                                "side_chain_rmsd": 12.1762
+                            },
+                            "2": {
+                                "all_atom_rmsd": 11.6204,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.5347,
+                                "plddt": 29.65,
+                                "position": 2,
+                                "side_chain_rmsd": 12.6588
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.1391,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.3399,
+                                "plddt": 34.3,
+                                "position": 3,
+                                "side_chain_rmsd": 3.3952
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.8045,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.8241,
+                                "plddt": 39.36,
+                                "position": 4,
+                                "side_chain_rmsd": 9.9609
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.8385,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 4.3322,
+                                "plddt": 35.67,
+                                "position": 5,
+                                "side_chain_rmsd": 6.4793
+                            },
+                            "6": {
+                                "all_atom_rmsd": 6.1536,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.0247,
+                                "plddt": 33.67,
+                                "position": 6,
+                                "side_chain_rmsd": 8.1599
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.4189,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.8256,
+                                "plddt": 29.45,
+                                "position": 7,
+                                "side_chain_rmsd": 7.5089
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.3329,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 4.9476,
+                                "plddt": 27.33,
+                                "position": 8,
+                                "side_chain_rmsd": 3.3418
+                            },
+                            "9": {
+                                "all_atom_rmsd": 14.7838,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.3971,
+                                "plddt": 23.87,
+                                "position": 9,
+                                "side_chain_rmsd": 17.117
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_7un.result/HLA_B2705_SRYWAIRTR_d51bc_7un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.6866,
+                            "backbone_rmsd": 5.6027,
+                            "plddt": 38.7133,
+                            "side_chain_rmsd": 10.4606
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.6891,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.2408,
+                                "plddt": 30.19,
+                                "position": 1,
+                                "side_chain_rmsd": 7.4642
+                            },
+                            "2": {
+                                "all_atom_rmsd": 13.8109,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.6108,
+                                "plddt": 37.81,
+                                "position": 2,
+                                "side_chain_rmsd": 16.0426
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.5736,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.4492,
+                                "plddt": 46.48,
+                                "position": 3,
+                                "side_chain_rmsd": 3.7947
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.3468,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.2201,
+                                "plddt": 51.5,
+                                "position": 4,
+                                "side_chain_rmsd": 9.5086
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.8614,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.5289,
+                                "plddt": 42.14,
+                                "position": 5,
+                                "side_chain_rmsd": 4.974
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.1611,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.3082,
+                                "plddt": 39.17,
+                                "position": 6,
+                                "side_chain_rmsd": 6.9242
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.8888,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.5497,
+                                "plddt": 38.62,
+                                "position": 7,
+                                "side_chain_rmsd": 8.5558
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.0688,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.0467,
+                                "plddt": 33.28,
+                                "position": 8,
+                                "side_chain_rmsd": 3.0981
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.6516,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.7829,
+                                "plddt": 29.23,
+                                "position": 9,
+                                "side_chain_rmsd": 15.0079
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_7un.result/HLA_B2705_SRYWAIRTR_d51bc_7un_unrelaxed_rank_1_model_5.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.4966,
+                            "backbone_rmsd": 4.5543,
+                            "plddt": 38.0489,
+                            "side_chain_rmsd": 6.1394
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.5045,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.0228,
+                                "plddt": 28.91,
+                                "position": 1,
+                                "side_chain_rmsd": 7.359
+                            },
+                            "2": {
+                                "all_atom_rmsd": 5.4087,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.1035,
+                                "plddt": 37.05,
+                                "position": 2,
+                                "side_chain_rmsd": 4.9682
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.9796,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.7343,
+                                "plddt": 42.9,
+                                "position": 3,
+                                "side_chain_rmsd": 3.5507
+                            },
+                            "4": {
+                                "all_atom_rmsd": 7.6031,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.9674,
+                                "plddt": 49.75,
+                                "position": 4,
+                                "side_chain_rmsd": 8.639
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.6956,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.2826,
+                                "plddt": 41.07,
+                                "position": 5,
+                                "side_chain_rmsd": 5.0186
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.9543,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.1192,
+                                "plddt": 36.4,
+                                "position": 6,
+                                "side_chain_rmsd": 6.6783
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.5611,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.3647,
+                                "plddt": 38.81,
+                                "position": 7,
+                                "side_chain_rmsd": 6.7381
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.5635,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.1852,
+                                "plddt": 37.96,
+                                "position": 8,
+                                "side_chain_rmsd": 6.4982
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.3807,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.0541,
+                                "plddt": 29.59,
+                                "position": 9,
+                                "side_chain_rmsd": 2.5486
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_7un.result/HLA_B2705_SRYWAIRTR_d51bc_7un_unrelaxed_rank_3_model_2.pdb"
+                    },
+                    "rank": "3"
+                },
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 7.8915,
+                            "backbone_rmsd": 5.6351,
+                            "plddt": 30.6633,
+                            "side_chain_rmsd": 9.2803
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.964,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.8344,
+                                "plddt": 25.8,
+                                "position": 1,
+                                "side_chain_rmsd": 6.9015
+                            },
+                            "2": {
+                                "all_atom_rmsd": 12.8311,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.3504,
+                                "plddt": 30.89,
+                                "position": 2,
+                                "side_chain_rmsd": 14.7943
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.8452,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.0133,
+                                "plddt": 37.24,
+                                "position": 3,
+                                "side_chain_rmsd": 2.9395
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.7223,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.8316,
+                                "plddt": 41.82,
+                                "position": 4,
+                                "side_chain_rmsd": 10.0318
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.4133,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 2.9918,
+                                "plddt": 34.7,
+                                "position": 5,
+                                "side_chain_rmsd": 4.7382
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.4303,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 1.916,
+                                "plddt": 31.0,
+                                "position": 6,
+                                "side_chain_rmsd": 7.4368
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.0756,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.0589,
+                                "plddt": 29.0,
+                                "position": 7,
+                                "side_chain_rmsd": 7.2567
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.1027,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.5817,
+                                "plddt": 24.17,
+                                "position": 8,
+                                "side_chain_rmsd": 2.3147
+                            },
+                            "9": {
+                                "all_atom_rmsd": 9.4879,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.6875,
+                                "plddt": 21.35,
+                                "position": 9,
+                                "side_chain_rmsd": 10.7659
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_7un.result/HLA_B2705_SRYWAIRTR_d51bc_7un_unrelaxed_rank_2_model_4.pdb"
+                    },
+                    "rank": "2"
+                },
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.8081,
+                            "backbone_rmsd": 4.6888,
+                            "plddt": 38.8256,
+                            "side_chain_rmsd": 6.5529
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.4785,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.9657,
+                                "plddt": 30.67,
+                                "position": 1,
+                                "side_chain_rmsd": 8.4199
+                            },
+                            "2": {
+                                "all_atom_rmsd": 4.8524,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.1387,
+                                "plddt": 37.54,
+                                "position": 2,
+                                "side_chain_rmsd": 3.9328
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.3547,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.9005,
+                                "plddt": 45.96,
+                                "position": 3,
+                                "side_chain_rmsd": 4.0823
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.5451,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.1051,
+                                "plddt": 51.31,
+                                "position": 4,
+                                "side_chain_rmsd": 9.7717
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.0016,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.5738,
+                                "plddt": 40.24,
+                                "position": 5,
+                                "side_chain_rmsd": 5.3829
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.0495,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 1.7909,
+                                "plddt": 37.08,
+                                "position": 6,
+                                "side_chain_rmsd": 5.4397
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.9966,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.0652,
+                                "plddt": 39.28,
+                                "position": 7,
+                                "side_chain_rmsd": 8.7336
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.4696,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.0485,
+                                "plddt": 37.95,
+                                "position": 8,
+                                "side_chain_rmsd": 1.8904
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.2298,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.3346,
+                                "plddt": 29.4,
+                                "position": 9,
+                                "side_chain_rmsd": 2.6067
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_7un.result/HLA_B2705_SRYWAIRTR_d51bc_7un_unrelaxed_rank_4_model_3.pdb"
+                    },
+                    "rank": "4"
+                }
+            ],
+            "recycle_count": 7
+        },
+        "8": {
+            "models": [
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 9.5594,
+                            "backbone_rmsd": 7.801,
+                            "plddt": 29.2878,
+                            "side_chain_rmsd": 10.7512
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 12.4424,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 12.3648,
+                                "plddt": 26.14,
+                                "position": 1,
+                                "side_chain_rmsd": 12.5962
+                            },
+                            "2": {
+                                "all_atom_rmsd": 8.5171,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.4325,
+                                "plddt": 32.08,
+                                "position": 2,
+                                "side_chain_rmsd": 8.5651
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.7442,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.5109,
+                                "plddt": 31.57,
+                                "position": 3,
+                                "side_chain_rmsd": 4.7835
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.4017,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.664,
+                                "plddt": 36.23,
+                                "position": 4,
+                                "side_chain_rmsd": 9.4933
+                            },
+                            "5": {
+                                "all_atom_rmsd": 5.6899,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 5.1275,
+                                "plddt": 32.56,
+                                "position": 5,
+                                "side_chain_rmsd": 7.5306
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.8232,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 1.979,
+                                "plddt": 30.96,
+                                "position": 6,
+                                "side_chain_rmsd": 6.5276
+                            },
+                            "7": {
+                                "all_atom_rmsd": 8.4302,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.7515,
+                                "plddt": 28.94,
+                                "position": 7,
+                                "side_chain_rmsd": 9.632
+                            },
+                            "8": {
+                                "all_atom_rmsd": 8.0604,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 7.7132,
+                                "plddt": 22.58,
+                                "position": 8,
+                                "side_chain_rmsd": 8.5013
+                            },
+                            "9": {
+                                "all_atom_rmsd": 17.0503,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 12.6027,
+                                "plddt": 22.53,
+                                "position": 9,
+                                "side_chain_rmsd": 19.1331
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_8un.result/HLA_B2705_SRYWAIRTR_d51bc_8un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.7809,
+                            "backbone_rmsd": 5.7502,
+                            "plddt": 38.7433,
+                            "side_chain_rmsd": 10.5415
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.9593,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.5492,
+                                "plddt": 31.98,
+                                "position": 1,
+                                "side_chain_rmsd": 7.6441
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.2902,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.9915,
+                                "plddt": 37.12,
+                                "position": 2,
+                                "side_chain_rmsd": 16.5741
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.5527,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.5951,
+                                "plddt": 46.36,
+                                "position": 3,
+                                "side_chain_rmsd": 3.6626
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.1615,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.2805,
+                                "plddt": 51.85,
+                                "position": 4,
+                                "side_chain_rmsd": 9.2696
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.939,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6191,
+                                "plddt": 41.86,
+                                "position": 5,
+                                "side_chain_rmsd": 5.0188
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.218,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.4225,
+                                "plddt": 38.84,
+                                "position": 6,
+                                "side_chain_rmsd": 6.9704
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.9001,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.6022,
+                                "plddt": 38.66,
+                                "position": 7,
+                                "side_chain_rmsd": 8.5645
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.0774,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 3.0817,
+                                "plddt": 33.25,
+                                "position": 8,
+                                "side_chain_rmsd": 3.0715
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.6464,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.6997,
+                                "plddt": 28.77,
+                                "position": 9,
+                                "side_chain_rmsd": 15.0223
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_8un.result/HLA_B2705_SRYWAIRTR_d51bc_8un_unrelaxed_rank_2_model_5.pdb"
+                    },
+                    "rank": "2"
+                },
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 4.6,
+                            "backbone_rmsd": 3.9777,
+                            "plddt": 34.0867,
+                            "side_chain_rmsd": 5.0176
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.8281,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.1709,
+                                "plddt": 28.84,
+                                "position": 1,
+                                "side_chain_rmsd": 8.0991
+                            },
+                            "2": {
+                                "all_atom_rmsd": 4.5316,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 4.4016,
+                                "plddt": 32.73,
+                                "position": 2,
+                                "side_chain_rmsd": 4.6043
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.2034,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 2.5211,
+                                "plddt": 42.73,
+                                "position": 3,
+                                "side_chain_rmsd": 3.3201
+                            },
+                            "4": {
+                                "all_atom_rmsd": 4.828,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 2.2649,
+                                "plddt": 40.6,
+                                "position": 4,
+                                "side_chain_rmsd": 5.5301
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.611,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.8113,
+                                "plddt": 34.26,
+                                "position": 5,
+                                "side_chain_rmsd": 6.9429
+                            },
+                            "6": {
+                                "all_atom_rmsd": 4.4673,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.0247,
+                                "plddt": 34.04,
+                                "position": 6,
+                                "side_chain_rmsd": 5.9845
+                            },
+                            "7": {
+                                "all_atom_rmsd": 4.8279,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.4956,
+                                "plddt": 34.07,
+                                "position": 7,
+                                "side_chain_rmsd": 5.9456
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.7783,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.6269,
+                                "plddt": 33.0,
+                                "position": 8,
+                                "side_chain_rmsd": 1.9621
+                            },
+                            "9": {
+                                "all_atom_rmsd": 3.1788,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.9815,
+                                "plddt": 26.51,
+                                "position": 9,
+                                "side_chain_rmsd": 3.6926
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_8un.result/HLA_B2705_SRYWAIRTR_d51bc_8un_unrelaxed_rank_4_model_3.pdb"
+                    },
+                    "rank": "4"
+                },
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.0491,
+                            "backbone_rmsd": 4.0809,
+                            "plddt": 37.4667,
+                            "side_chain_rmsd": 5.6645
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.463,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 8.8329,
+                                "plddt": 28.69,
+                                "position": 1,
+                                "side_chain_rmsd": 7.6699
+                            },
+                            "2": {
+                                "all_atom_rmsd": 4.4551,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 4.3564,
+                                "plddt": 33.43,
+                                "position": 2,
+                                "side_chain_rmsd": 4.5105
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.6358,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 3.0601,
+                                "plddt": 43.05,
+                                "position": 3,
+                                "side_chain_rmsd": 3.662
+                            },
+                            "4": {
+                                "all_atom_rmsd": 4.7794,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.1316,
+                                "plddt": 45.78,
+                                "position": 4,
+                                "side_chain_rmsd": 5.2969
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.4654,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 2.6447,
+                                "plddt": 38.65,
+                                "position": 5,
+                                "side_chain_rmsd": 5.6628
+                            },
+                            "6": {
+                                "all_atom_rmsd": 6.3525,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.95,
+                                "plddt": 39.22,
+                                "position": 6,
+                                "side_chain_rmsd": 8.0688
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.9846,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.09,
+                                "plddt": 38.67,
+                                "position": 7,
+                                "side_chain_rmsd": 8.6119
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.6235,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.6024,
+                                "plddt": 37.0,
+                                "position": 8,
+                                "side_chain_rmsd": 3.5548
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.5726,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.0449,
+                                "plddt": 32.71,
+                                "position": 9,
+                                "side_chain_rmsd": 2.8304
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_8un.result/HLA_B2705_SRYWAIRTR_d51bc_8un_unrelaxed_rank_1_model_2.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.719,
+                            "backbone_rmsd": 5.6795,
+                            "plddt": 33.6344,
+                            "side_chain_rmsd": 10.4832
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.0144,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.8528,
+                                "plddt": 26.41,
+                                "position": 1,
+                                "side_chain_rmsd": 7.0442
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.5909,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.898,
+                                "plddt": 32.73,
+                                "position": 2,
+                                "side_chain_rmsd": 17.0089
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.0123,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.1604,
+                                "plddt": 39.21,
+                                "position": 3,
+                                "side_chain_rmsd": 2.9559
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.4759,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.1267,
+                                "plddt": 46.11,
+                                "position": 4,
+                                "side_chain_rmsd": 9.6833
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.6623,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.3094,
+                                "plddt": 37.23,
+                                "position": 5,
+                                "side_chain_rmsd": 4.8222
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.8398,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.6558,
+                                "plddt": 35.21,
+                                "position": 6,
+                                "side_chain_rmsd": 7.8201
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.4146,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 2.7679,
+                                "plddt": 31.9,
+                                "position": 7,
+                                "side_chain_rmsd": 6.457
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.6045,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.6296,
+                                "plddt": 30.32,
+                                "position": 8,
+                                "side_chain_rmsd": 2.5707
+                            },
+                            "9": {
+                                "all_atom_rmsd": 12.5177,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.1497,
+                                "plddt": 23.59,
+                                "position": 9,
+                                "side_chain_rmsd": 14.9873
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_8un.result/HLA_B2705_SRYWAIRTR_d51bc_8un_unrelaxed_rank_3_model_4.pdb"
+                    },
+                    "rank": "3"
+                }
+            ],
+            "recycle_count": 8
+        },
+        "9": {
+            "models": [
+                {
+                    "model": "4",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 6.1423,
+                            "backbone_rmsd": 4.3726,
+                            "plddt": 32.7589,
+                            "side_chain_rmsd": 7.2107
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 7.6738,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 8.4868,
+                                "plddt": 26.49,
+                                "position": 1,
+                                "side_chain_rmsd": 5.7107
+                            },
+                            "2": {
+                                "all_atom_rmsd": 8.5992,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.6741,
+                                "plddt": 30.51,
+                                "position": 2,
+                                "side_chain_rmsd": 9.5262
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.604,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 4.3574,
+                                "plddt": 38.18,
+                                "position": 3,
+                                "side_chain_rmsd": 2.8562
+                            },
+                            "4": {
+                                "all_atom_rmsd": 9.4115,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 3.6591,
+                                "plddt": 40.67,
+                                "position": 4,
+                                "side_chain_rmsd": 10.8928
+                            },
+                            "5": {
+                                "all_atom_rmsd": 2.9737,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 2.5186,
+                                "plddt": 35.46,
+                                "position": 5,
+                                "side_chain_rmsd": 4.3406
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.824,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.407,
+                                "plddt": 35.13,
+                                "position": 6,
+                                "side_chain_rmsd": 7.8768
+                            },
+                            "7": {
+                                "all_atom_rmsd": 4.2013,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.9395,
+                                "plddt": 32.74,
+                                "position": 7,
+                                "side_chain_rmsd": 5.0585
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.9654,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.8009,
+                                "plddt": 30.39,
+                                "position": 8,
+                                "side_chain_rmsd": 2.1654
+                            },
+                            "9": {
+                                "all_atom_rmsd": 3.1251,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.9985,
+                                "plddt": 25.26,
+                                "position": 9,
+                                "side_chain_rmsd": 3.6145
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_9un.result/HLA_B2705_SRYWAIRTR_d51bc_9un_unrelaxed_rank_1_model_4.pdb"
+                    },
+                    "rank": "1"
+                },
+                {
+                    "model": "2",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.5561,
+                            "backbone_rmsd": 4.5489,
+                            "plddt": 34.1178,
+                            "side_chain_rmsd": 6.1663
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.8113,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 10.2811,
+                                "plddt": 27.09,
+                                "position": 1,
+                                "side_chain_rmsd": 8.7968
+                            },
+                            "2": {
+                                "all_atom_rmsd": 6.894,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.9001,
+                                "plddt": 30.81,
+                                "position": 2,
+                                "side_chain_rmsd": 7.4023
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.1812,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 2.8465,
+                                "plddt": 36.72,
+                                "position": 3,
+                                "side_chain_rmsd": 4.1998
+                            },
+                            "4": {
+                                "all_atom_rmsd": 5.7663,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 2.7268,
+                                "plddt": 39.7,
+                                "position": 4,
+                                "side_chain_rmsd": 6.6012
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.0566,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.3541,
+                                "plddt": 36.96,
+                                "position": 5,
+                                "side_chain_rmsd": 6.1058
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.9812,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.1693,
+                                "plddt": 35.5,
+                                "position": 6,
+                                "side_chain_rmsd": 7.8425
+                            },
+                            "7": {
+                                "all_atom_rmsd": 4.7831,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.761,
+                                "plddt": 36.16,
+                                "position": 7,
+                                "side_chain_rmsd": 5.8463
+                            },
+                            "8": {
+                                "all_atom_rmsd": 4.4461,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 1.9388,
+                                "plddt": 35.9,
+                                "position": 8,
+                                "side_chain_rmsd": 6.4119
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.857,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.4242,
+                                "plddt": 28.22,
+                                "position": 9,
+                                "side_chain_rmsd": 3.4157
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_9un.result/HLA_B2705_SRYWAIRTR_d51bc_9un_unrelaxed_rank_3_model_2.pdb"
+                    },
+                    "rank": "3"
+                },
+                {
+                    "model": "1",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.697,
+                            "backbone_rmsd": 7.0281,
+                            "plddt": 31.0767,
+                            "side_chain_rmsd": 9.8262
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 13.0786,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 13.4646,
+                                "plddt": 25.96,
+                                "position": 1,
+                                "side_chain_rmsd": 12.2701
+                            },
+                            "2": {
+                                "all_atom_rmsd": 11.0022,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.3031,
+                                "plddt": 28.52,
+                                "position": 2,
+                                "side_chain_rmsd": 11.8644
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.2558,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.2594,
+                                "plddt": 34.97,
+                                "position": 3,
+                                "side_chain_rmsd": 3.5916
+                            },
+                            "4": {
+                                "all_atom_rmsd": 7.8739,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.3648,
+                                "plddt": 38.27,
+                                "position": 4,
+                                "side_chain_rmsd": 8.8981
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.965,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 4.3669,
+                                "plddt": 35.67,
+                                "position": 5,
+                                "side_chain_rmsd": 6.8541
+                            },
+                            "6": {
+                                "all_atom_rmsd": 6.7959,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 3.7703,
+                                "plddt": 33.9,
+                                "position": 6,
+                                "side_chain_rmsd": 8.8404
+                            },
+                            "7": {
+                                "all_atom_rmsd": 5.6142,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 3.2079,
+                                "plddt": 30.15,
+                                "position": 7,
+                                "side_chain_rmsd": 6.6068
+                            },
+                            "8": {
+                                "all_atom_rmsd": 3.8687,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 4.0935,
+                                "plddt": 28.2,
+                                "position": 8,
+                                "side_chain_rmsd": 3.547
+                            },
+                            "9": {
+                                "all_atom_rmsd": 13.6243,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 8.3466,
+                                "plddt": 24.05,
+                                "position": 9,
+                                "side_chain_rmsd": 15.8708
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_9un.result/HLA_B2705_SRYWAIRTR_d51bc_9un_unrelaxed_rank_5_model_1.pdb"
+                    },
+                    "rank": "5"
+                },
+                {
+                    "model": "5",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 8.6997,
+                            "backbone_rmsd": 5.6484,
+                            "plddt": 39.0667,
+                            "side_chain_rmsd": 10.4613
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 8.985,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.6012,
+                                "plddt": 31.75,
+                                "position": 1,
+                                "side_chain_rmsd": 7.6044
+                            },
+                            "2": {
+                                "all_atom_rmsd": 14.4811,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 9.0545,
+                                "plddt": 37.4,
+                                "position": 2,
+                                "side_chain_rmsd": 16.8132
+                            },
+                            "3": {
+                                "all_atom_rmsd": 4.5528,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 5.5553,
+                                "plddt": 46.1,
+                                "position": 3,
+                                "side_chain_rmsd": 3.659
+                            },
+                            "4": {
+                                "all_atom_rmsd": 8.0694,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.1546,
+                                "plddt": 51.07,
+                                "position": 4,
+                                "side_chain_rmsd": 9.1791
+                            },
+                            "5": {
+                                "all_atom_rmsd": 3.9005,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.592,
+                                "plddt": 42.21,
+                                "position": 5,
+                                "side_chain_rmsd": 4.9458
+                            },
+                            "6": {
+                                "all_atom_rmsd": 5.2731,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 2.5583,
+                                "plddt": 39.47,
+                                "position": 6,
+                                "side_chain_rmsd": 7.0047
+                            },
+                            "7": {
+                                "all_atom_rmsd": 7.1683,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.6638,
+                                "plddt": 39.5,
+                                "position": 7,
+                                "side_chain_rmsd": 8.8975
+                            },
+                            "8": {
+                                "all_atom_rmsd": 2.4312,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 2.3367,
+                                "plddt": 34.58,
+                                "position": 8,
+                                "side_chain_rmsd": 2.5517
+                            },
+                            "9": {
+                                "all_atom_rmsd": 11.9722,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 6.0973,
+                                "plddt": 29.52,
+                                "position": 9,
+                                "side_chain_rmsd": 14.2826
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_9un.result/HLA_B2705_SRYWAIRTR_d51bc_9un_unrelaxed_rank_4_model_5.pdb"
+                    },
+                    "rank": "4"
+                },
+                {
+                    "model": "3",
+                    "predicted_structure_data": {
+                        "all_positions": {
+                            "all_atoms_rmsd": 5.7945,
+                            "backbone_rmsd": 4.482,
+                            "plddt": 38.8322,
+                            "side_chain_rmsd": 6.6406
+                        },
+                        "individual_positions": {
+                            "1": {
+                                "all_atom_rmsd": 9.3801,
+                                "amino_acid": "SER",
+                                "backbone_rmsd": 9.8103,
+                                "plddt": 29.84,
+                                "position": 1,
+                                "side_chain_rmsd": 8.4542
+                            },
+                            "2": {
+                                "all_atom_rmsd": 5.0343,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 5.6703,
+                                "plddt": 34.27,
+                                "position": 2,
+                                "side_chain_rmsd": 4.6317
+                            },
+                            "3": {
+                                "all_atom_rmsd": 3.4877,
+                                "amino_acid": "TYR",
+                                "backbone_rmsd": 3.9803,
+                                "plddt": 44.13,
+                                "position": 3,
+                                "side_chain_rmsd": 3.1266
+                            },
+                            "4": {
+                                "all_atom_rmsd": 9.0915,
+                                "amino_acid": "TRP",
+                                "backbone_rmsd": 4.1172,
+                                "plddt": 48.28,
+                                "position": 4,
+                                "side_chain_rmsd": 10.4373
+                            },
+                            "5": {
+                                "all_atom_rmsd": 4.1495,
+                                "amino_acid": "ALA",
+                                "backbone_rmsd": 3.6854,
+                                "plddt": 41.26,
+                                "position": 5,
+                                "side_chain_rmsd": 5.6359
+                            },
+                            "6": {
+                                "all_atom_rmsd": 3.8243,
+                                "amino_acid": "ILE",
+                                "backbone_rmsd": 1.5872,
+                                "plddt": 37.91,
+                                "position": 6,
+                                "side_chain_rmsd": 5.1702
+                            },
+                            "7": {
+                                "all_atom_rmsd": 6.5953,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.0461,
+                                "plddt": 40.34,
+                                "position": 7,
+                                "side_chain_rmsd": 8.2298
+                            },
+                            "8": {
+                                "all_atom_rmsd": 1.3753,
+                                "amino_acid": "THR",
+                                "backbone_rmsd": 0.996,
+                                "plddt": 40.91,
+                                "position": 8,
+                                "side_chain_rmsd": 1.7581
+                            },
+                            "9": {
+                                "all_atom_rmsd": 2.1184,
+                                "amino_acid": "ARG",
+                                "backbone_rmsd": 1.1907,
+                                "plddt": 32.55,
+                                "position": 9,
+                                "side_chain_rmsd": 2.4983
+                            }
+                        },
+                        "pymol": "pymol structures/peptides/fixed/2bst.pdb hla-b/hla-b*2705/unrelaxed_split_peptide/SRYWAIRTR/HLA_B2705_SRYWAIRTR_d51bc_9un.result/HLA_B2705_SRYWAIRTR_d51bc_9un_unrelaxed_rank_2_model_3.pdb"
+                    },
+                    "rank": "2"
+                }
+            ],
+            "recycle_count": 9
+        }
+    },
+    "relaxed": false
+}
