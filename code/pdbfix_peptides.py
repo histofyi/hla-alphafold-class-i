@@ -1,9 +1,10 @@
 from typing import Tuple, List
+import argparse
+import csv
 
 from pdbfixer import PDBFixer
 from openmm.app import PDBFile
 from Bio.PDB import *
-import csv
 
 
 file_root = '../'
@@ -55,8 +56,8 @@ def fix_peptide_structure(pdb_code:str, peptide_sequence:str) -> Tuple[bool, Lis
     not_disordered = True
     reasons = []
 
-    input_file_name = f'{file_root}/structures/peptides/{input_folder}/{pdb_code}.pdb'
-    output_file_name = f'{file_root}/structures/peptides/{output_folder}/{pdb_code}.pdb'
+    input_file_name = f'{file_root}structures/peptides/{input_folder}/{pdb_code}.pdb'
+    output_file_name = f'{file_root}structures/peptides/{output_folder}/{pdb_code}.pdb'
 
     print ('------------------------')
     print (pdb_code)
@@ -133,35 +134,55 @@ def fix_peptide_structure(pdb_code:str, peptide_sequence:str) -> Tuple[bool, Lis
     return not_disordered, reasons
 
 
-
 errors = []
 
-# open the CSV file
-file = open(f'{file_root}human_class_i.csv')
-# and read in the CSV 
-csvreader = csv.reader(file)
-# set the header to the first row
-header = next(csvreader)
 
-# iterate through the remaining rows
-rows = []
-for row in csvreader:
-    # if the specified allele is present then add it to the curated rowset
-    rows.append(row)
+def fix_peptides_in_csv(this_pdb_code):
+    # open the CSV file
+    file = open(f'{file_root}human_class_i.csv')
+    # and read in the CSV 
+    csvreader = csv.reader(file)
+    # set the header to the first row
+    header = next(csvreader)
 
-# next create a dictionary of the complexex relating to a specific allele
-complex_set = []
-for row in rows:
-    complex_set.append({k:v for k,v in list(zip(header,row))})
+    # iterate through the remaining rows
+    rows = []
+    for row in csvreader:
+        # if the specified allele is present then add it to the curated rowset
+        rows.append(row)
 
-# iterate through the complexes relating to that allele
-for complex in complex_set:
-    pdb_code = complex['pdb_code']
-    if len(pdb_code) == 4:
-        # and perform an action on them if it's not a structure with problems
-        if pdb_code not in ignore_structures:
-            success, reasons = fix_peptide_structure(pdb_code.lower(), complex['peptide'])
-            if not success:
-                errors.append({'pdb_code':complex['pdb_code'], 'reasons':reasons})
+    # next create a dictionary of the complexex relating to a specific allele
+    complex_set = []
+    for row in rows:
+        complex_set.append({k:v for k,v in list(zip(header,row))})
+
+    if this_pdb_code:
+        complex_set = [complex for complex in complex_set if complex['pdb_code'] == this_pdb_code.upper()]
+        if len(complex_set) == 0:
+            errors.append('pdb_file_not_present')
+
+    # iterate through the complexes relating to that allele
+    for complex in complex_set:
+        pdb_code = complex['pdb_code']
+        if len(pdb_code) == 4:
+            # and perform an action on them if it's not a structure with problems
+            if pdb_code not in ignore_structures:                    
+                success, reasons = fix_peptide_structure(pdb_code.lower(), complex['peptide'])
+                if not success:
+                    errors.append({'pdb_code':complex['pdb_code'], 'reasons':reasons})
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--single_structure", help="specify a single file to run the function on")
+args = parser.parse_args()
+if args.single_structure:
+    print(f'PDB code is {args.single_structure}')
+    fix_peptides_in_csv(args.single_structure)
+else:
+    print ('working on complete set')
+    fix_peptides_in_csv()
+
+
 print (errors)
-        
+
