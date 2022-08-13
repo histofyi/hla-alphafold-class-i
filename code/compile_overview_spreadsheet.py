@@ -33,6 +33,7 @@ for recycle_count in recycles:
     recycle_counts[str(recycle_count)] = {'pdb_codes':[], 'rmsds':[], 'alleles':[], 'peptides':[], 'ranks':[], 'plddts':[]}
 
 all_runs = {}
+all_statistics = {}
 
 def process_row(dataset_row_labels, run_data, alpha_fold_row):
     min_rmsd = 100
@@ -117,6 +118,8 @@ def process_row(dataset_row_labels, run_data, alpha_fold_row):
     recycle_counts[str(min_rmsd_recycle_count)]['peptides'].append(alpha_fold_row['peptide'])
 
 
+
+
 # open the CSV file
 file = open(f'{file_root}human_class_i.csv')
 # and read in the CSV 
@@ -140,11 +143,15 @@ for row in csvreader:
         try:
             with open(run_datafile_name, 'r')as run_datafile:
                 run_data = json.load(run_datafile)
+            
         except:
             print ('no_statistics')
+        all_statistics[alpha_fold_row['pdb_code']] = run_data
         process_row(dataset_row_labels, run_data, alpha_fold_row)
 
-#print (recycle_counts)
+
+
+
 
 quality_bins = [5, 3, 2, 1.5, 1.25]
 quality_labels = ['poor', 'neutral', 'good', 'very_good', 'excellent']
@@ -184,22 +191,36 @@ for recycle_count in recycle_counts:
 
     print ('Statistics')
 
+good_to_excellent = []
+for this_quality in ['good', 'very_good', 'excellent']:
+    for item in quality_set[this_quality]:
+        good_to_excellent.append(item)
+
+print (good_to_excellent)
+
+
+good_to_excellent_runs = []
+
 k = 0
 for row in all_runs:
-    if all_runs[row]['metadata']['pdb_code'] in quality_set['excellent']:
-        print ('')
-        print (all_runs[row])
-        print ('')
+    for this_quality in ['good', 'very_good', 'excellent']:
+        if all_runs[row]['metadata']['pdb_code'] in quality_set[this_quality]:
+            print ('')
+            print (all_runs[row])
+            all_runs[row]['metadata']['quality'] = this_quality
+            good_to_excellent_runs.append(all_runs[row])
+            print ('')
     k += 1
 
-print ('Excellent')
-print (quality_set['excellent'])
-print (len(quality_set['excellent']))
 
-print ('Very good')
-print (quality_set['very_good'])
-print (len(quality_set['very_good']))
+with open('../statistics/all_runs.json', 'w') as output_file:
+    json.dump(all_runs, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
 
-print ('Good')
-print (quality_set['good'])
-print (len(quality_set['good']))
+with open('../statistics/all.json', 'w') as output_file:
+    json.dump(all_statistics, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
+
+with open('../statistics/good_to_excellent.json', 'w') as output_file:
+    json.dump(good_to_excellent_runs, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
+
+with open('../statistics/quality.json', 'w') as output_file:
+    json.dump(quality_set, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
