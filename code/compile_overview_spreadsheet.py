@@ -34,6 +34,7 @@ for recycle_count in recycles:
 
 all_runs = {}
 all_statistics = {}
+best_predictions = {}
 
 def process_row(dataset_row_labels, run_data, alpha_fold_row):
     min_rmsd = 100
@@ -224,3 +225,6 @@ with open('../statistics/good_to_excellent.json', 'w') as output_file:
 
 with open('../statistics/quality.json', 'w') as output_file:
     json.dump(quality_set, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
+
+with open('../statistics/best_recycles.json', 'w') as output_file:
+    json.dump(recycle_counts, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
