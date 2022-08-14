@@ -29,12 +29,20 @@ def get_row_labels():
 
 
 recycle_counts = {}
+good_to_excellent_recycle_counts = {}
+best_plddt_recycle_counts = {}
 for recycle_count in recycles:
     recycle_counts[str(recycle_count)] = {'pdb_codes':[], 'rmsds':[], 'alleles':[], 'peptides':[], 'ranks':[], 'plddts':[]}
+    good_to_excellent_recycle_counts[str(recycle_count)] = {'pdb_codes':[], 'rmsds':[], 'alleles':[], 'peptides':[], 'ranks':[], 'plddts':[]}
+    best_plddt_recycle_counts[str(recycle_count)] = {'pdb_codes':[], 'rmsds':[], 'alleles':[], 'peptides':[], 'ranks':[], 'plddts':[]}
+
+
 
 all_runs = {}
 all_statistics = {}
 best_predictions = {}
+
+
 
 def process_row(dataset_row_labels, run_data, alpha_fold_row):
     min_rmsd = 100
@@ -111,6 +119,22 @@ def process_row(dataset_row_labels, run_data, alpha_fold_row):
     print (min_rmsd_recycle_count)
     print (min_model_number)
     print (min_rank)
+    if min_rmsd < 2:
+        good_to_excellent_recycle_counts[str(min_rmsd_recycle_count)]['pdb_codes'].append(alpha_fold_row['pdb_code'])
+        good_to_excellent_recycle_counts[str(min_rmsd_recycle_count)]['rmsds'].append(min_rmsd)
+        good_to_excellent_recycle_counts[str(min_rmsd_recycle_count)]['plddts'].append(min_plddt)
+        good_to_excellent_recycle_counts[str(min_rmsd_recycle_count)]['ranks'].append(min_rank)
+        good_to_excellent_recycle_counts[str(min_rmsd_recycle_count)]['alleles'].append(alpha_fold_row['allele'])
+        good_to_excellent_recycle_counts[str(min_rmsd_recycle_count)]['peptides'].append(alpha_fold_row['peptide'])
+    print (f'PLDDT {min_plddt}')
+    if min_plddt > 60:
+        best_plddt_recycle_counts[str(min_rmsd_recycle_count)]['pdb_codes'].append(alpha_fold_row['pdb_code'])
+        best_plddt_recycle_counts[str(min_rmsd_recycle_count)]['rmsds'].append(min_rmsd)
+        best_plddt_recycle_counts[str(min_rmsd_recycle_count)]['plddts'].append(min_plddt)
+        best_plddt_recycle_counts[str(min_rmsd_recycle_count)]['ranks'].append(min_rank)
+        best_plddt_recycle_counts[str(min_rmsd_recycle_count)]['alleles'].append(alpha_fold_row['allele'])
+        best_plddt_recycle_counts[str(min_rmsd_recycle_count)]['peptides'].append(alpha_fold_row['peptide'])
+
     recycle_counts[str(min_rmsd_recycle_count)]['pdb_codes'].append(alpha_fold_row['pdb_code'])
     recycle_counts[str(min_rmsd_recycle_count)]['rmsds'].append(min_rmsd)
     recycle_counts[str(min_rmsd_recycle_count)]['plddts'].append(min_plddt)
@@ -214,6 +238,13 @@ for row in all_runs:
     k += 1
 
 
+
+
+
+
+
+
+
 with open('../statistics/all_runs.json', 'w') as output_file:
     json.dump(all_runs, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
 
@@ -227,4 +258,7 @@ with open('../statistics/quality.json', 'w') as output_file:
     json.dump(quality_set, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
 
 with open('../statistics/best_recycles.json', 'w') as output_file:
-    json.dump(recycle_counts, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
+    json.dump(good_to_excellent_recycle_counts, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
+
+with open('../statistics/best_plddt_recycles.json', 'w') as output_file:
+    json.dump(best_plddt_recycle_counts, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
