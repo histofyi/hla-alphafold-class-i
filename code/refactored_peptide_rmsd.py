@@ -55,8 +55,8 @@ def process_colabfold_structure(run_file_path:str, real, allele, peptide, run_fi
     success = True
 
     #print ('----------')
-    print (allele)
-    print (peptide)
+    #print (allele)
+    #print (peptide)
     #print (run_file)
     #print ('----------')
 
@@ -81,9 +81,7 @@ def process_colabfold_structure(run_file_path:str, real, allele, peptide, run_fi
         print ('dataframe_shape_mismatch')
     predicted_structure_data['individual_positions'] = {}
 
-    #peptide_length = len(peptide)
-
-    residue_positions = [position + 1 for position in range(0, 10)]
+    residue_positions = [position + 1 for position in range(0, len(peptide))]
 
     for residue_position in residue_positions:
         

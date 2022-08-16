@@ -1,7 +1,6 @@
 from pymol import cmd
 
 
-
 def split_peptide(filename:str, input_filepath:str, output_filepath:str):
     original_pdb_file = f'{input_filepath}/{filename}'
     print (original_pdb_file)
@@ -19,6 +18,3 @@ def split_peptide(filename:str, input_filepath:str, output_filepath:str):
         print (file_key)
         cmd.save(file_key)
     cmd.delete(name)
-
-
-
