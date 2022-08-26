@@ -5,6 +5,7 @@ from common import load_list_from_csv, locus_from_allele
 file_root = '../'
 
 all_stats = {}
+diffs = {}
 
 qualities = {
     'excellent':[],
@@ -16,6 +17,7 @@ qualities = {
 }
 
 rmsds = {}
+
 
 alpha_fold_list, success, errors =  load_list_from_csv('human_class_i.csv')
 
@@ -43,15 +45,41 @@ for alpha_fold_row in alpha_fold_list:
         if rmsd not in rmsds:
             rmsds[rmsd] = []
         rmsds[rmsd].append(pdb_code)
+        print ('------')
+        print (pdb_code)
+        diffs[pdb_code] = {'recycles':{}}
+        for recycle in run_data['recycles']:
+            diffs[pdb_code]['recycles'][recycle] = {}
+            recycle_max_rmsd = 0
+            recycle_min_rmsd = 100
+            recycle_max_plddt = 0
+            recycle_min_plddt = 100
+            print (recycle)
+            for model in run_data['recycles'][recycle]['models']:
+                if run_data['recycles'][recycle]['models'][model]['allatom_rmsd'] < recycle_min_rmsd:
+                    recycle_min_rmsd = run_data['recycles'][recycle]['models'][model]['allatom_rmsd']
+                if run_data['recycles'][recycle]['models'][model]['allatom_rmsd'] > recycle_max_rmsd:
+                    recycle_max_rmsd = run_data['recycles'][recycle]['models'][model]['allatom_rmsd']
+                if run_data['recycles'][recycle]['models'][model]['plddt'] > recycle_max_plddt:
+                    recycle_max_plddt = run_data['recycles'][recycle]['models'][model]['plddt']
+                if run_data['recycles'][recycle]['models'][model]['plddt'] < recycle_min_plddt:
+                    recycle_min_plddt = run_data['recycles'][recycle]['models'][model]['plddt']
+            diffs[pdb_code]['recycles'][recycle]['plddt_min'] = recycle_min_plddt
+            diffs[pdb_code]['recycles'][recycle]['plddt_max'] = recycle_max_plddt
+            diffs[pdb_code]['recycles'][recycle]['plddt_diff'] = round(recycle_max_plddt - recycle_min_plddt, 2)
+            diffs[pdb_code]['recycles'][recycle]['rmsd_min'] = recycle_min_rmsd
+            diffs[pdb_code]['recycles'][recycle]['rmsd_max'] = recycle_max_rmsd
+            diffs[pdb_code]['recycles'][recycle]['rmsd_diff'] = round(recycle_max_rmsd - recycle_min_rmsd, 2)
+            
+            print (quality)
+            print (diffs[pdb_code]['recycles'][recycle])
 
 
-print (all_stats)
+
 with open('../statistics/all.json', 'w') as output_file:
     json.dump(all_stats, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
-print (rmsds)
 with open('../statistics/rmsds.json', 'w') as output_file:
     json.dump(rmsds, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
-print (qualities)
 with open('../statistics/qualities.json', 'w') as output_file:
     json.dump(qualities, output_file, sort_keys = True, indent = 4, ensure_ascii = True)
 
